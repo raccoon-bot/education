@@ -4,9 +4,14 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println("Just do it!");
 
-        int b = add(1L, 10.0f);
+        int a = 7;
+        int b = 12;
 
-        System.out.println(b);
+        System.out.println("a" + a + b + "a" + b);
+
+        int b1 = add(1L, 10.0f);
+
+        System.out.println(b1);
 
     }
 
