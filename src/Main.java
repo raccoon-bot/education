@@ -8,5 +8,14 @@ public class Main {
         int b = 12;
 
         System.out.println("a" + a + b + "a" + b);
+
+        int b1 = add(1L, 10.0f);
+
+        System.out.println(b1);
+
+    }
+
+    public static <T extends Number> int add(T number1, T number2) {
+        return number1.intValue() + number2.intValue();
     }
 }
