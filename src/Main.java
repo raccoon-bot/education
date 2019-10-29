@@ -11,11 +11,15 @@ public class Main {
 
         int b1 = add(1L, 10.0f);
 
-        System.out.println(b1);
+        System.out.println(pow(2,8));
 
     }
 
     public static <T extends Number> int add(T number1, T number2) {
         return number1.intValue() + number2.intValue();
+    }
+
+    public static int pow(int a, int b) {
+        return (int) Math.pow(a, b);
     }
 }
